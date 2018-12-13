@@ -1,0 +1,107 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    overflow-x: hidden;
+    color: #fff;
+}
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/i1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+.clearfix:after{
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0px;
+    clear: both;
+
+}
+.row{
+    max-width: 1180px;
+    margin: 0 auto;
+}
+.logo{
+    height: 120px;
+    width: auto;
+    float: left;
+    border-radius: 250px;
+    margin-top: 20px;
+}
+.index-nav{
+    float: right;
+    margin-top: 60px;
+}
+.index-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 60px;
+}
+.index-nav li a{
+    padding: 5px 0px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+}
+.index-nav li a:hover{
+    border-bottom: 2px solid #bf55ec;
+}
+.main-content-header{
+    max-width: 1180px;
+    position: absolute;
+    top: 55%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    color: #fff;
+    font-size: 35px;
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: lighter;
+    text-decoration: none;
+    border-radius: 200px;
+    text-transform: uppercase;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+.btn-login{
+    background-color: transparent;
+    color: #bf55ec;
+    margin-right: 15px;
+    border: 1px solid #bf55ec;
+}
+
+.btn-login:hover{
+    background-color: #fff;
+}
+.btn-signup{
+    background-color: transparent;
+    color: #fff;
+    margin-right: 15px;
+    border: 1px solid #bf55ec;
+}
+.btn-signup:hover{
+    background-color: #bf55ec;
+}
+.colorchange{
+    animation: colorchangeireporter 1s infinite;
+}
+@keyframes  colorchangeireporter {
+    0%{color: #bf55ec;}
+    25%{color: royalblue;}
+    50%{color: white;}
+    100%{color: red;}
+}
