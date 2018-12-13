@@ -106,7 +106,6 @@ h1{
     100%{color: red;}
 }
 
-
 /*  signup   */
 
 .top-logo img{
@@ -185,10 +184,15 @@ nav ul li a:hover{
 .form .register-form img{
     border: 1px solid white;
     border-radius: 50%;
-    padding: 10px;
+    padding: 3px;
+    height: 100;
 }
 .form .login-form img{
     border: 1px solid white;
     border-radius: 50%;
     padding: 10px;
+    height: 120px;
+
 }
+
+
