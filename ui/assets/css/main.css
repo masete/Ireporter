@@ -105,3 +105,90 @@ h1{
     50%{color: white;}
     100%{color: red;}
 }
+
+
+/*  signup   */
+
+.top-logo img{
+    margin-top: 10px;
+    margin-left: 5px;
+    position: fixed;
+    float: left;
+    width: 150px;
+    height: auto;
+    border-radius: 300px;
+}
+.menu{
+    float: right;
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+
+}
+
+nav ul li{
+    margin-top: 5px;
+    padding: 20px;
+    display: inline-block;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    color: #bf55ec;
+    text-decoration: none;
+    transition: all 0.3s ease-in;
+}
+.login-page{
+    width: 380px;
+    padding: 5% 0 0; 
+    margin: auto;
+}
+.form{
+    position: relative;
+    background-color: rgba(72, 79, 86, 0.6);
+    /* margin: 0 auto 100px; */
+    padding: 40px;
+    text-align: center;
+}
+.form input{
+    outline: darkgrey;
+    background: #e0e0e0;
+    width: 100%;
+    margin: 0 0 5px; 
+    border: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.form .indication{
+    margin: 15px 0 0;
+    color: whitesmoke;
+    font-size: 15px;
+}
+.form .indication a{
+    text-decoration: none;
+    margin: 15px 0 0;
+    color: darkorange;
+    font-size: 18px;
+}
+.form .register-form img{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
+.form .login-form img{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 10px;
+}
