@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html>  
+    <head>
+        <title>RedFlag | Ireporter</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/main.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="top-logo">
+                    <img src="assets/images/i2.jpg"/>
+                </div>
+                <div class="menu">
+                    <ul>
+                            
+                        <li><a href="create.html">CREATE</a></li>
+                        <li><a href="delete.html">DELETE</a></li>
+                        <li><a href="edit.html" class="active" >EDIT</a></li>
+                        <li><a href="user-profile.html">USER PROFILE</a></li>
+                        <li><a href="index.html">LOGOUT</a></li>
+                                
+                    </ul>
+                </div>
+            </nav> 
+            <div class="login-page">
+                    <div class="form">
+                        <form class="login-form">
+                            <h1 class="text">Create Record</h1>
+                            <input type="text" placeholder="Record name" required/><br>
+                            <input type="password" placeholder="Location" required/><br>
+                            <input type="password" placeholder="Date" required/><br>
+                            <textarea class="textarea" placeholder="description"></textarea>
+
+                            <label class="text">Geolocation: </label>
+                            <div class="geo">
+                            <input class="lat" type="text" placeholder="Latitude" required/>
+                            <input class="log" type="text" placeholder="Longitude" required/>
+                            </div>
+
+                            <label class="text">Add image: </label><br>
+                            <input type="file" name="pic" />
+
+                            <button class="btn btn-signup">Submit Edited Record</button>
+                        </form>
+        
+        
+                    </div> 
+            </div>  
+            
+        </header>
+    </body>
+    </html>
