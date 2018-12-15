@@ -196,3 +196,40 @@ nav ul li a:hover{
 }
 
 
+/*  create redflag */
+.text{
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+}
+.textarea{
+    outline: darkgrey;
+    background: #e0e0e0;
+    width: 100%;
+    margin: 0 0 5px; 
+    border: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 18px;
+} 
+.form .geo{
+    width: 100%;
+}
+.form .lat{
+    color: #bf55ec;
+    width: 48%;
+}
+.form .log{
+    color: #bf55ec;
+    width: 48%;
+}
+.option{
+    padding: 3px;
+    border-radius: 5px;
+    font-size: 13px; 
+
+}
+
+
+
