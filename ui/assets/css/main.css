@@ -230,6 +230,66 @@ nav ul li a:hover{
     font-size: 13px; 
 
 }
-/* delete and edit *
+/* delete and edit */
+
+
+.main-content{
+    width: 80%;
+    margin-top: 50px;
+    padding: 5% 0 0; 
+    margin: auto;
+}
+
+.box-left img{
+    width: 45%;
+    height: 20px;
+}
+.box-right img{
+    width: 45%;
+    height: 50px;
+}
+
+.box-right{
+    background-color: rgba(72, 79, 86, 0.6);
+    opacity: 0.89;
+    float: right;
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.box-left{
+    background-color: rgba(72, 79, 86, 0.6);
+    opacity: 0.89;
+    float: left;
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    box-sizing: border-box;
+    font-weight: bolder;
+}
+.btn-edit{
+    padding: 5px 15px;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 5px;
+    border: 1px solid #bf55ec;
+}
+.btn-edit:hover{
+    background-color: #bf55ec;
+}
+
+.btn-delete{
+    padding: 5px 15px;
+    background-color: transparent;
+    color: #fff;
+    margin-right: 5px;
+    border: 1px solid #bf55ec;
+}
+.btn-delete:hover{
+    background-color: #bf55ec;
+}
+
 
 
