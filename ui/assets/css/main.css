@@ -98,6 +98,7 @@ h1{
 }
 .barger{
     padding: 5px;
+    display: none;
 }
 .barger div{
     width: 5%;
@@ -124,9 +125,10 @@ h1{
     margin-left: 5px;
     position: fixed;
     float: left;
-    width: 150px;
+    width: 80px;
     height: auto;
     border-radius: 300px;
+    padding: 0 5px;
 }
 .menu{
     float: right;
@@ -166,7 +168,6 @@ nav ul li a:hover{
 .form{
     position: relative;
     background-color: rgba(72, 79, 86, 0.6);
-    /* margin: 0 auto 100px; */
     padding: 40px;
     text-align: center;
 }
@@ -346,7 +347,7 @@ nav ul li a:hover{
 
 
 /*RESPONSIVENES WITH QUERIES*/
-
+/* tablet */
 @media only screen and (max-width: 1024px){
     .main-content-header{
         width: 100%;
@@ -384,28 +385,170 @@ nav ul li a:hover{
     .btn-signup:hover{
         background-color: #bf55ec;
     }
+    .login-page{
+        width: 380px; 
+        padding: 14% 0 0;
+    }
+    .menu li a{
+        font-size: 25px;
 
+    }
+    /* .btn btn-signup{
+        padding: 20px 40px; 
+    } */
 } 
+
 
 @media only screen and (max-width: 998px){
-    h1{
-        font-size: 200%;
+    .main-content-header{
+        width: 100%;
+        padding: 0 10%;
     }
-}
+    .logo{
+        height: 180px;
+        width: auto;
+        margin-top: 25px;
+        margin-left: 10px;
+        padding: 0 5%;
+    }
+    .index-nav li a{
+        font-size: 30px;
+    }
+    h1{
+        color: #bf55ec;
+        font-size: 25px;
+    }
+    .btn{
+        padding: 15px 40px; 
+    }
+    .btn-login{
+        border: 5px solid #bf55ec;
+    }
+    .btn-login:hover{
+        background-color: #fff;
+    }
+    .btn-signup{
+        border: 5px solid #bf55ec;
+    }
+    .btn-signup:hover{
+        background-color: #bf55ec;
+    }
+    .login-page{
+        width: 380px; 
+        padding: 10% 0 0;
+    }
+    .menu li a{
+        font-size: 15px;
 
-@media only screen and (max-width: 768px){
-    h1{
-        font-size: 180%;
     }
-    .index-nav{
-        display: none;
-    }
+
 } 
 
-@media only screen and (max-width: 360px){
+
+@media only screen and (max-width: 768px){
+    .main-content-header{
+        width: 100%;
+        padding: 0 5%;
+    }
+    .logo{
+        height: 180px;
+        width: auto;
+        margin-top: 25px;
+        margin-left: 10px;
+        padding: 0 5%;
+    }
+    .index-nav li a{
+        font-size: 30px;
+    }
+    h1{
+        color: #bf55ec;
+        font-size: 25px;
+    }
+    .btn{
+        padding: 15px 40px; 
+    }
+    .btn-login{
+        border: 5px solid #bf55ec;
+    }
+    .btn-login:hover{
+        background-color: #fff;
+    }
+    .btn-signup{
+        border: 5px solid #bf55ec;
+    }
+    .btn-signup:hover{
+        background-color: #bf55ec;
+    }
     .index-nav{
         display: none;
     }
-    
+    .login-page{
+        width: 380px; 
+        padding: 35% 0 0;
+    }
+    .menu li a{
+        display: none;
+
+    }
+    .form .login-form img{
+    display: none;
+    }
 }
+
+
+
+@media only screen and (max-width: 360px){
+    .main-content-header{
+        width: 100%;
+        padding: 0 10%;
+    }
+    .logo{
+        height: 120px;
+        width: auto;
+        margin-top: 25px;
+        margin-left: 10px;
+        padding: 0 5%;
+    }
+    .index-nav li a{
+        font-size: 20px;
+    }
+    h1{
+        color: #bf55ec;
+        font-size: 20px;
+    }
+    .btn{
+        padding: 15px 30px; 
+    }
+    .btn-login{
+        border: 5px solid #bf55ec;
+    }
+    .btn-login:hover{
+        background-color: #fff;
+    }
+    .btn-signup{
+        border: 5px solid #bf55ec;
+    }
+    .btn-signup:hover{
+        background-color: #bf55ec;
+    }
+    .index-nav{
+        display: none;
+    }
+ 
+    .login-page{
+        padding: 10% 0 0; 
+    }
+    .login-page{
+        width: 380px; 
+        padding: 14% 0 0;
+    }
+    .menu li a{
+        font-size: 20px;
+
+    }
+    .form .login-form img{
+    display: none;
+    }
+
+} 
 
