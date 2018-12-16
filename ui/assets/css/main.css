@@ -96,6 +96,17 @@ h1{
 .btn-signup:hover{
     background-color: #bf55ec;
 }
+.barger{
+    padding: 5px;
+}
+.barger div{
+    width: 5%;
+    height: 5px;
+    background-color: #bf55ec;
+    margin: 3px;
+    float: right;
+}
+
 .colorchange{
     animation: colorchangeireporter 1s infinite;
 }
@@ -333,4 +344,68 @@ nav ul li a:hover{
     padding: 10px;
 }
 
+
+/*RESPONSIVENES WITH QUERIES*/
+
+@media only screen and (max-width: 1024px){
+    .main-content-header{
+        width: 100%;
+        padding: 0 10%;
+    }
+    .logo{
+        height: 180px;
+        width: auto;
+        margin-top: 25px;
+        margin-left: 10px;
+        padding: 0 5%;
+    }
+    .index-nav li a{
+        font-size: 35px;
+    }
+    h1{
+        color: #bf55ec;
+        font-size: 50px;
+    }
+    .barger div{
+        display: none;
+    }
+    .btn{
+        padding: 15px 40px; 
+    }
+    .btn-login{
+        border: 5px solid #bf55ec;
+    }
+    .btn-login:hover{
+        background-color: #fff;
+    }
+    .btn-signup{
+        border: 5px solid #bf55ec;
+    }
+    .btn-signup:hover{
+        background-color: #bf55ec;
+    }
+
+} 
+
+@media only screen and (max-width: 998px){
+    h1{
+        font-size: 200%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    h1{
+        font-size: 180%;
+    }
+    .index-nav{
+        display: none;
+    }
+} 
+
+@media only screen and (max-width: 360px){
+    .index-nav{
+        display: none;
+    }
+    
+}
 
