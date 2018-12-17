@@ -47,7 +47,7 @@ header{
     padding: 5px 0px;
     text-decoration: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 25px;
     font-weight: 100;
 }
 .index-nav li a:hover{
@@ -393,9 +393,6 @@ nav ul li a:hover{
         font-size: 25px;
 
     }
-    /* .btn btn-signup{
-        padding: 20px 40px; 
-    } */
 } 
 
 
@@ -412,7 +409,7 @@ nav ul li a:hover{
         padding: 0 5%;
     }
     .index-nav li a{
-        font-size: 30px;
+        font-size: 20px;
     }
     h1{
         color: #bf55ec;
@@ -444,11 +441,11 @@ nav ul li a:hover{
 
 } 
 
-
+/* mobile device*/
 @media only screen and (max-width: 768px){
     .main-content-header{
         width: 100%;
-        padding: 0 5%;
+        padding: 0 10%;
     }
     .logo{
         height: 180px;
@@ -490,9 +487,22 @@ nav ul li a:hover{
         display: none;
 
     }
+    .login-page{
+        width: 340px; 
+        padding: 5% 0 0;
+    }
     .form .login-form img{
     display: none;
     }
+    .top-logo img{
+        width: 60px;  
+    }
+    .textarea{
+        margin: 0 0 1px; 
+        border: 0px;
+        padding: 2px;
+        font-size: 8px;
+    } 
 }
 
 
@@ -505,7 +515,7 @@ nav ul li a:hover{
     .logo{
         height: 120px;
         width: auto;
-        margin-top: 25px;
+        margin-top: 12px;
         margin-left: 10px;
         padding: 0 5%;
     }
@@ -539,16 +549,26 @@ nav ul li a:hover{
         padding: 10% 0 0; 
     }
     .login-page{
-        width: 380px; 
-        padding: 14% 0 0;
+        width: 320px; 
+        padding: 25% 0 0;
+        margin:  0 15px 0;
     }
-    .menu li a{
-        font-size: 20px;
-
+    .form .login-form{
+        margin: 1px 0 0;
+        padding: 1px 0 0;
     }
     .form .login-form img{
     display: none;
     }
+    .top-logo img{
+        width: 60px;  
+    }
+    .textarea{
+        margin: 0 0 2px; 
+        border: 0px;
+        padding: 8px;
+        font-size: 15px;
+    } 
 
 } 
 
