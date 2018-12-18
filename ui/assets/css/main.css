@@ -83,7 +83,25 @@ h1{
     margin-right: 15px;
     border: 1px solid #bf55ec;
 }
+#login-button{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    margin-top: 10px;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 300px;
+}
 
+#login-button:hover{
+    background-color: #bf55ec;
+}
+.login-outer input{
+    color: #4CAF50;
+}
 .btn-login:hover{
     background-color: #fff;
 }
@@ -106,6 +124,9 @@ h1{
     background-color: #bf55ec;
     margin: 3px;
     float: right;
+}
+.title{
+    color: #4CAF50;
 }
 
 .colorchange{
@@ -242,6 +263,13 @@ nav ul li a:hover{
     font-size: 13px; 
 
 }
+/* detailed page */
+.detailed-page{
+    width: 80%;
+    padding: 15% 0 0; 
+    margin: auto;
+}
+
 /* delete and edit */
 
 

@@ -22,7 +22,11 @@
                     <h1 style="color:white">LOGIN</h1>
                     <input type="text" placeholder="username" id="username" required/><br>
                     <input type="password" placeholder="password" id="password" required/><br>
-                    <input type="button" class="btn btn-signup" onclick="login()"  value="login"/>
+
+                    <div class="login-outer">
+                    <input id="login-button" type="button"  onclick="login()"  value="login"/>
+                    </div>
+                    
                     <p class="indication">Not Registered? <a href="signup.html">signup</a></p>
                 </form>
 
