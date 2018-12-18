@@ -13,36 +13,93 @@
                 </div>
                 <div class="menu">
                     <ul>
-                            
+                        <li><a href="admin.html" class="active">CHANGE STATUS</a></li>   
                         <li><a href="admin-view-flags.html">ALL FLAGS</a></li>
                         <li><a href="admin-inver.html">ALL INTERVENTIONS</a></li>
                         <li><a href="../index.html">LOGOUT</a></li>        
                     </ul>
                 </div>
             </nav> 
-            <div class="login-page">
-                    <div class="form">
-                        <form class="login-form">
-                            <h1 class="text">Create Record</h1>
-                            <input type="text" placeholder="Record name" required/><br>
-                            <input type="password" placeholder="Location" required/><br>
-                            <input type="password" placeholder="Date" required/><br>
-                            <textarea class="textarea" placeholder="description"></textarea>
-
-                            <label class="text">Geolocation: </label>
-                            <div class="geo">
-                            <input class="lat" type="text" placeholder="Latitude" required/>
-                            <input class="log" type="text" placeholder="Longitude" required/>
-                            </div>
-
-                            <label class="text">Add image: </label><br>
-                            <input type="file" name="pic" />
-
-                            <button class="btn btn-signup">Submit Edited Record</button>
-                        </form>
-        
-        
-                    </div> 
+            <div class="admin-page">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <td style="width: 10%;">Image</td>
+                            <td>Username</td>
+                            <td>Comment</td>
+                            <td class="rgt">Date Created</td>
+                            <td class="rgt">Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="assets/images/we.jpeg" /></td>
+                            <td>masete nicol</td>
+                            <td><a href="detailed-record.html" class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</a></td>
+                            <td class="rgt"><small>12:30 10/10/2018</small></td>
+                            <td><select>
+                                <option class="option" value="Rejected">Rejected</option>
+                                <option class="option" value="Resolved">Resolved</option>
+                                <option class="option" value="Yet to be Resolved">Yet to be Resolved</option>
+                        </select><br></td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/i1.jpg" /></td>
+                            <td>Kawuma Ibrahim</td>
+                            <td><a href="detailed-record.html" class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</a></td>
+                            <td class="rgt"><small>12:30 10/09/2018</small></td>
+                            <td><select>
+                                <option class="option" value="Rejected">Rejected</option>
+                                <option class="option" value="Resolved">Resolved</option>
+                                <option class="option" value="Yet to be Resolved">Yet to be Resolved</option>
+                        </select></td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/we.jpeg" /></td>
+                            <td>Mark Ibanda</td>
+                            <td><a href="detailed-record.html" class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</a></td>
+                            <td class="rgt"><small>12:30 10/08/2018</small></td>
+                            <td><select>
+                                <option class="option" value="Rejected">Rejected</option>
+                                <option class="option" value="Resolved">Resolved</option>
+                                <option class="option" value="Yet to be Resolved">Yet to be Resolved</option>
+                        </select></td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/i1.jpg" /></td>
+                            <td>Ssenyunga Joseph</td>
+                            <td><a href="detailed-record.html" class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</a></td>
+                            <td class="rgt"><small>12:30 10/07/2018</small></td>
+                            <td><select>
+                                <option class="option" value="Rejected">Rejected</option>
+                                <option class="option" value="Resolved">Resolved</option>
+                                <option class="option" value="Yet to be Resolved">Yet to be Resolved</option>
+                        </select></td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/we.jpeg" /></td>
+                            <td>Byekwaso Faisol</td>
+                            <td><a href="detailed-record.html" class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</a></td>
+                            <td class="rgt"><small>12:30 10/06/2018</small></td>
+                            <td><select>
+                                <option class="option" value="Rejected">Rejected</option>
+                                <option class="option" value="Resolved">Resolved</option>
+                                <option class="option" value="Yet to be Resolved">Yet to be Resolved</option>
+                        </select></td>
+                        </tr>
+                        <tr>
+                            <td><img src="assets/images/we.jpeg" /></td>
+                            <td>Bill mwesigwa</td>
+                            <td><a href="detailed-record.html" class="title">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et.</a></td>
+                            <td class="rgt"><small>12:30 10/05/2018</small></td>
+                            <td><select>
+                                <option class="option" value="Rejected">Rejected</option>
+                                <option class="option" value="Resolved">Resolved</option>
+                                <option class="option" value="Yet to be Resolved">Yet to be Resolved</option>
+                        </select></td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>  
             
         </header>

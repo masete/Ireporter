@@ -227,7 +227,22 @@ nav ul li a:hover{
     height: 120px;
 
 }
-
+/* admin page */
+.admin-page{
+    width: 1180px;
+    padding: 10% 0 0;
+    margin: auto;
+}
+.table{
+    margin-left: 100px;
+    background-color: dimgray;
+    border-radius: 5px;
+    margin: 5px;
+}
+.table img{
+    width: 100px;
+    height: 50px;
+}
 
 /*  create redflag */
 .text{
@@ -597,6 +612,5 @@ nav ul li a:hover{
         padding: 8px;
         font-size: 15px;
     } 
-
 } 
 
