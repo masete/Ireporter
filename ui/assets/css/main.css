@@ -9,7 +9,7 @@ body{
     color: #fff;
 }
 header{
-    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/i1.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(../images/pr1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -58,7 +58,7 @@ header{
     position: absolute;
     top: 55%;
     left: 45%;
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, -50%);
 }
 h1{
     color: #fff;
